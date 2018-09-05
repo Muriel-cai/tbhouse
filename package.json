@@ -1,0 +1,45 @@
+{
+  "name": "wb-bycm-taobafc-m",
+  "version": "0.0.1",
+  "description": "淘宝房产  带搜索参考",
+  "repository": {
+    "type": "git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
+  "author": {
+    "name": ""
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {},
+  "upx": {
+    "screenshot": "http://g01.alibaba-inc.com/tfscom/TB17mlZRpXXXXcOXpXXXXXXXXXX.tfsprivate.png",
+    "assets": {
+      "kimi": "0.0.233",
+      "tb-init-kimi": "*",
+      "m-base": "*",
+      "hairlines": "*"
+    },
+    "width": [
+      "100%"
+    ],
+    "type": "mod",
+    "terminalType": "mobile",
+    "tags": [],
+    "guideId": "18",
+    "guideName": "kimi-old"
+  },
+  "eslintConfig": {
+    "root": true
+  },
+  "dataEngine": "tce",
+  "kitLight": {
+    "modify_time": "2017-6-29 11:35:45"
+  }
+}

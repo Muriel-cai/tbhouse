@@ -1,0 +1,74 @@
+<textarea style="display: none;" class="J_conf dataText">{{$env.JSON.stringify(this)}}</textarea>
+<div class="module-wrap J_tb_lazyload"">
+    <div class="m_con clearfix" style="background: {{moduleinfo.bg}};">
+        <div style=" background: url({{moduleinfo.hongbbg}})no-repeat;background-size: 100% 100%;" class="hongbfl">
+            <h1 class="hongbfloor" style="color:{{moduleinfo.hbfontColor}};">{{moduleinfo.hbtitle}}</h1>
+        </div>
+        <div class="house_chos">
+            <div class="ctiy_current" data-cityId=""><p class="current_text"></p><span class="current_icon"></span></div>
+            <div class="search">
+                <span>搜索</span>
+                <form class="search_k">
+                    <input type="text" name="searchtext" class="searchtext" id="searchtext">
+                    <div name="search_btn" class="search_btn"></div>          
+                </form>
+            </div>
+        </div>
+        <div class="city_box clearfix">
+            <div class="city_list clearfix">
+                <div class="city_list_left">
+                    
+                </div>
+            </div>
+        </div>
+        <ul class="pro_list clearfix">
+
+        </ul>
+        <div class="getmore">查看更多红包</div>
+    </div>
+    <div class="teijia" style="background: {{moduleinfo.tjbgcolor}} ">
+        <div style=" background: url({{moduleinfo.tejiabg}})no-repeat;background-size: 100% 100%;" class="tejiafl">
+            <h1 class="tjfloor" style="color:{{moduleinfo.fontColor}};">{{moduleinfo.tjtitle}}</h1>
+        </div>
+        <div class="tjnavbox">
+            <div class="tjnav">
+                
+            </div>
+            <div class="morenav">
+               更多 
+            </div>
+            
+        </div>
+        <ul class="tejiahouse">
+            
+        </ul>
+        
+    </div>
+    <div class="alert_lq">
+       <div class="bottom_float">
+            <!-- <p class="bottom_info">已选 <span class="build_name"></span> <b class="hongbao_totalnum">0</b>个红包     共<b class="hongbao_totalpric">0</b>元红包</p> -->
+            <div class="hb_close"></div>
+            <div class="bottom_tel_btn">
+                <input value="" class="bottom_tel" id="bottom_tel" name="   bottom_tel" type="tel" >
+                <a href="javascript:void(0);" class="bottom_btn" target="_blank"></a>
+            </div>
+        </div> 
+    </div>
+    
+    <div class="m_mark"></div>
+    <div class="m_tk">
+        <div class="m_tklink">
+            <a href="" target="_blank" class="tk_buliding"></a>
+            <a href="http://h5.m.taobao.com/fang/my-redpacket.html?spm=a312b.7778508.2.1" target="_blank" class="tk_hongbao"></a>
+            
+            <a href="javascript:void(0);" target="_self" class="tk_close"></a>
+            <div class="ylclose"></div>
+        </div>
+    </div>
+    <div class="search_null">
+        <div class="search_nullal">
+        <span class="search_close"></span>
+            <a href="" class="search_nullgo" target="_blank"></a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,822 @@
+@import "../mixins";
+
+.wb-bycm-taobafc-m{
+  .clearfix{zoom:1;}
+  .clearfix:before,.clearfix:after{content:'';display:table;}
+  .clearfix:after{clear:both;}
+  .module-wrap a{ text-decoration:none;}
+  .module-wrap a:hover{ text-decoration:none; outline:none;}
+  .module-wrap a:focus{ text-decoration:none; outline:none;}
+  :focus{ outline:0;}
+  input{margin:0; padding:0; border:0 none;-webkit-appearance:none;border-radius:0;}
+  ul,li,p,i,span,b{ margin: 0; padding: 0; list-style: none; font-style: normal;}
+  @rem:75rem;
+  font-family: "Helvetica Neue", "Microsoft YaHei", Arial, Helvetica, STHeiTi, sans-serif;
+  .module-wrap {
+    width: 100%;
+    font-family: "Microsoft YaHei";
+    .m_con{
+      width: 750/@rem;
+      overflow: hidden;
+      padding-bottom: 25/@rem;
+      position: relative;
+      margin-bottom: 10/@rem;
+      display: none;
+    }
+    .hongbfl{
+        width:750/@rem;
+        height:130/@rem;
+        overflow: hidden;
+        .hongbfloor{
+          width:750/@rem;
+          height:130/@rem;
+          overflow: hidden;
+          height:140/@rem;
+          color:#6F3700;
+          font-size: 50/@rem;
+          padding:0/@rem 20/@rem;
+          line-height:140/@rem; 
+          text-align: center;
+        }
+        .hongbfloor::before{
+          display: inline-block;
+          width: 122/@rem;
+          height:34/@rem;
+          content: "";
+          vertical-align: middle;
+          margin: 0;
+          background: url(https://gw.alicdn.com/tfs/TB1Lw4GRpXXXXXUXVXXXXXXXXXX-122-34.png)no-repeat;
+          background-size: 122/@rem 34/@rem;
+        }
+        .hongbfloor::after{
+          display: inline-block;
+          padding-right: 20/@rem;
+          width: 122/@rem;
+          height:34/@rem;
+          content: "";
+          vertical-align: middle;
+          margin: 0;
+          background: url(https://gw.alicdn.com/tfs/TB1QSXqRpXXXXcbaXXXXXXXXXXX-122-34.png)no-repeat;
+          background-size: 122/@rem 34/@rem;
+        } 
+      }
+    .house_chos{
+      padding: 12/@rem 30/@rem;
+      width:690/@rem;
+      height:58/@rem;
+      margin: 0 auto;
+      background: #fff;
+      margin-bottom:12/@rem; 
+      .ctiy_current{
+        width:256/@rem;
+        height:58/@rem;
+        float: left;
+        border-left: 1px solid #a0a0a0;         
+        .current_text{
+          line-height: 58/@rem;
+          color:#6c6c6c;
+          font-size: 30/@rem;
+          text-align: center;
+        }
+         .current_text::after{
+          display: inline-block;
+          content:"";
+          width:18/@rem;
+          height:10/@rem;
+          margin-left: 10/@rem;
+          vertical-align:middle;
+          background: url(https://gw.alicdn.com/tfs/TB1qQ0URpXXXXa5XVXXXXXXXXXX-17-9.png)no-repeat;
+          background-size:18/@rem 10/@rem;
+        }
+      }
+      .search{
+        width:428/@rem;
+        height: 58/@rem;
+        border-left: 1px solid #a0a0a0;
+        float: right;
+        span{
+          display:block;
+          float: left;
+          height:58/@rem;
+          width:70/@rem;
+          padding-left: 36/@rem;
+          line-height: 58/@rem;
+          font-size: 28/@rem;
+          text-align: center;
+          color:#6c6c6c;
+        }
+        .search_k{
+          position: relative;
+          float: left;
+          width:312/@rem;
+          height: 50/@rem;
+          padding-top: 4/@rem;
+          background: #eeeeee;
+          border-radius:25/@rem;
+          .searchtext{
+            width:240/@rem;
+            height:50/@rem;
+            border:none;
+            background:#eeeeee ;
+            border-radius:25/@rem;
+            padding-left: 20/@rem;
+            padding-right: 10/@rem;
+          }
+          .search_btn{
+            position: absolute;
+            width:58/@rem;
+            height:50/@rem;
+            background:url(https://gw.alicdn.com/tfs/TB16f5qRpXXXXaAXXXXXXXXXXXX-32-36.png)no-repeat 3/@rem 4/@rem;
+            background-size: 32/@rem 36/@rem;
+            bottom: 0;
+            right:0;
+            border: none;
+          }
+        }
+      }
+    }
+    .city_box{
+      width: 682/@rem;
+      overflow: hidden;
+      padding: 9/@rem;
+      margin: 0 auto;      
+      left: 0;
+      top: 60/@rem;
+      z-index: 99;
+      display: none;
+      background: #ff2f3e;
+    }
+    .city_list{
+      width: 682/@rem;
+      height: 100%;
+      overflow: hidden;
+      .city-a{
+        width: 114/@rem;
+        height: 64/@rem;
+        line-height: 64/@rem;
+        display: block;
+        font-size: 30/@rem;
+        color: #fff;
+        background: #ff8498;
+        float: left;
+        margin:9/@rem 6/@rem;
+        text-align: center;
+        overflow: hidden;
+      }
+      .city-close{
+        display: block;
+        clear: both;
+        height:68/@rem;
+        width:180/@rem;
+        background: #ffd800;
+        font-size:32/@rem;
+        color:#000;
+        line-height: 68/@rem;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 10/@rem;
+        margin:0 auto;
+        margin-bottom: 6/@rem;
+      }
+      .city-cur{
+        background: #fde634;
+        color: #000;
+      }
+    }
+    .getmore{
+      width:672/@rem; height:70/@rem;
+      background: #e60012;
+      color:#fff;
+      line-height: 70/@rem;
+      text-align: center;
+      margin:0 auto;
+      font-size: 28/@rem;
+      font-weight: bold;
+      border-radius: 10/@rem;
+      display:none;
+    }
+  	.pro_list{
+      width: 750/@rem;
+      /*min-height:650/@rem;*/
+      overflow: hidden;
+    }
+    .list_li{
+      width: 724/@rem;
+      height: 340/@rem;
+      margin:0 auto;
+      overflow: hidden;
+      margin-bottom: 20/@rem;
+      background: #fff;
+      a{
+        display:block;
+      }
+    }
+    .list_li_cur{
+      background:#fff9c7;
+    }
+    .building_img{
+      width: 264/@rem;
+      margin-top: 10/@rem;
+      height: 320/@rem;
+      float: left;
+      margin-right: 10/@rem;
+      overflow: hidden;
+    }
+    .building_pic{
+       width: 264/@rem;
+      height: 340/@rem;
+      overflow: hidden;
+    }
+    .building_info{
+      width: 438/@rem;
+      height: 340/@rem;
+      overflow: hidden;
+      float: right;
+      padding-left: 10/@rem;
+      position: relative;
+    }
+    .building_posi{
+      position: absolute;
+      top:0;right:14/@rem;
+      padding: 24/@rem 20/@rem;
+      background: url(https://gw.alicdn.com/tfs/TB1sISMRpXXXXbLXXXXXXXXXXXX-122-116.png)no-repeat;
+      background-size: 100% 100%;
+      color:#6c6c6c;
+    }
+    .building_name{
+      width: 100%;
+      height: 40/@rem;
+      line-height: 40/@rem;
+      font-size: 32/@rem;
+      color: #000;
+      font-weight: bold;
+      margin-top: 20/@rem;
+      overflow: hidden;
+      text-overflow:ellipsis;
+      white-space:nowrap;     
+    }
+    .building_address{
+      width: 450/@rem;
+      height: 70/@rem;
+      line-height: 35/@rem;
+      font-size: 24/@rem;
+      color: #808080;
+      margin-top: 15/@rem;
+      overflow: hidden;
+      display: -webkit-box;
+      text-overflow: ellipsis;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+    .building_price{
+      height: 46/@rem;
+      line-height: 46/@rem;
+      font-size: 36/@rem;
+      color: #ed0000;
+      text-align:left;
+      overflow: hidden;
+      b{
+        font-size: 28/@rem;
+        color: #ff0000;
+      }
+      i{
+        font-size: 16/@rem;
+        vertical-align: top;
+      }
+    }
+    .kan_ord{
+      position:relative;
+      height:94/@rem;
+      width:440/@rem;
+      top:230/@rem;
+      left:280/@rem;
+    }
+    .kan_orderr{
+        height:60/@rem;
+        width:200/@rem;
+        line-height: 60/@rem;
+        color:#3a3a3a;
+        font-size: 24/@rem;
+        text-align: center;
+        position: absolute;
+        right: 10/@rem;
+        border-radius: 30/@rem;
+        background: #ffec4b;
+        top:20/@rem;
+
+      }
+    .building_hb{
+      width: 218/@rem;
+      height: 91/@rem;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      overflow: hidden;
+    }
+    .building_hongbao{
+      float: left;
+      margin:0 4/@rem 0 0;
+      width: 218/@rem;
+      height: 89/@rem;
+      text-align: center;
+      background: url("https://gw.alicdn.com/tfs/TB1G7GBRpXXXXcaXpXXXXXXXXXX-218-89.png")no-repeat center top;
+      background-size: 100%;
+      font-size: 22/@rem;
+      color: #ffe1db;
+      position: relative;
+      .hongbao_text{
+        width: 110/@rem;
+        height: 50/@rem;
+        line-height: 25/@rem;
+        float: right;
+        margin-right: 10/@rem;
+        padding: 0 5/@rem;
+        font-size: 22/@rem;
+        display: inline-block;
+        padding-top: 17/@rem;
+        overflow: hidden;
+        color:#3a3a3a;
+      }
+      .hongbao_num{
+        width: 68/@rem;
+        height: 30/@rem;
+        line-height: 30/@rem;
+        display: inline-block;
+        float: left;
+        font-size: 22/@rem;
+        color: #fcff04;
+        position: absolute;
+        bottom:10/@rem;
+        left:24/@rem;
+        transform: rotate(-15deg);
+        white-space: -1/@rem;
+      }
+    }
+    /*.building_hongbao1{
+      float: left;
+      width: 472/@rem;
+      height: 91/@rem;
+      text-align: center;
+      background: url("https://gtms01.alicdn.com/tfs/TB1dy.QQFXXXXcAXXXXXXXXXXXX-472-91.png")no-repeat center top;
+      background-size: 100%;
+      .hongbao_text{
+        width: 140/@rem;
+        height: 60/@rem;
+        line-height:30/@rem ;
+        font-size: 22/@rem;
+        color: #ffe1db;
+        float: left;
+        margin:15/@rem 0 15/@rem 4/@rem;
+        display: inline-block;
+        overflow: hidden;
+      }
+      .hongbao_num{
+        width: 288/@rem;
+        height: 91/@rem;
+        line-height: 91/@rem;
+        display: inline-block;
+        float: left;
+        margin-left: 15/@rem;
+        font-size: 26/@rem;
+        color: #ff3e17;
+        text-align: center;
+      }
+    }*/
+    .alert_lq{
+      width: 100%;
+      height: 100%;
+      left:0;top:0;
+      position: fixed;
+      background:rgba(0,0,0,0.5);
+      display: none;
+    }
+    .bottom_float{
+     width:690/@rem;height:696/@rem;
+     background: url(https://gw.alicdn.com/tfs/TB1gdfdRpXXXXbeXXXXXXXXXXXX-690-696.png) no-repeat;
+     background-size: 100% 100%;
+     position: fixed;
+     left:50%;
+     top: 50%;
+     margin-left: -345/@rem;
+     margin-top: -348/@rem;
+     /* .bottom_info{
+        width: 750/@rem;
+        height: 64/@rem;
+        line-height: 64/@rem;
+        font-size: 24/@rem;
+        color: #fde551;
+        text-align: center;
+        overflow: hidden;
+      }*/
+      .hb_close{
+        display: inline-block;
+        width:62/@rem;height:62/@rem;
+        border-radius: 50%;
+        position: absolute;
+        right:74/@rem;top:10/@rem;
+      }
+      .bottom_tel_btn{
+        position: absolute;
+        bottom:0;left:66/@rem;
+        width:562/@rem;
+        height:320/@rem;
+        text-align: center;
+        overflow: hidden;
+      }
+      .bottom_tel{
+        width: 450/@rem;
+        height: 68/@rem;
+        line-height: 68/@rem;
+        border-radius: 10/@rem;
+        font-size: 48/@rem;
+        color: #333;
+        text-align: center;
+        overflow: hidden;
+        margin-top:36/@rem;
+      }
+      .bottom_btn{
+        width: 500/@rem;
+        height: 90/@rem;
+        line-height: 46/@rem;
+        display: block;
+        font-size: 24/@rem;
+        color: #222325;
+        margin-top:56/@rem;
+        margin-left: 30/@rem;
+        text-align: center;
+        overflow: hidden;
+        border-radius: 45/@rem;
+      }
+    }
+    .m_mark{
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      left: 0;
+      top: 0;
+      background: #000000;
+      opacity: 0.8;
+      z-index: 98;
+      display: none;
+    }
+    .m_tk{
+      width: 510/@rem;
+      height: 666@rem;
+      overflow: hidden;
+      position: fixed;
+      left: 50%;
+      top: 50%;
+      margin-top:-333/@rem;
+      margin-left: -255/@rem;
+      z-index: 99;
+      display: none;
+    }
+    .m_tklink{
+      width: 510/@rem;
+      height: 667/@rem;
+      overflow: hidden;
+      position: relative;
+      background: url(https://gw.alicdn.com/tfs/TB1HNL_RpXXXXXhXVXXXXXXXXXX-748-944.png) no-repeat;
+      background-size: 100% 100%;
+
+    }   
+    .ylclose{
+      display: inline-block;
+      width:62/@rem;height:62/@rem;
+      border-radius: 50%;
+      position: absolute;
+      right:10/@rem;top:10/@rem;
+    } 
+    .tk_buliding{
+      width:270/@rem;
+      height: 80/@rem;
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      left: 120/@rem;
+      top: 476/@rem;
+    }
+    .tk_hongbao{
+      display: block;
+      overflow: hidden;
+      position: absolute;
+      width:260/@rem;
+      height:60/@rem;
+      top:570/@rem;
+      left:125/@rem;
+    }
+    .tk_close{
+      width: 60/@rem;
+      height: 60/@rem;
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .search_null{
+      position: fixed;
+      width:100%;height: 100%;
+      left:0;top:0;
+      background: rgba(0,0,0,0.5);
+      display: none;
+      .search_nullal{
+        height:260/@rem;width:524/@rem;
+        position: fixed;
+        top:50%;left:50%;
+        margin-left: -262/@rem;margin-top: -130/@rem;
+        background: url(https://gw.alicdn.com/tfs/TB1nw9HRpXXXXaYXFXXXXXXXXXX-524-260.png)no-repeat;
+        background-size: 100% 100%;
+      }
+      .search_nullgo{
+        display: block;
+        width:266/@rem; height:52/@rem;
+        position: absolute;
+        bottom:69/@rem;
+        left:130/@rem;
+      }
+      .search_close{
+        display: inline-block;
+        width:62/@rem;height:62/@rem;
+        border-radius: 50%;
+        position: absolute;
+        right:5/@rem;top:5/@rem;
+      }
+    }
+    .teijia{
+      width:750/@rem;
+      height:100%;
+      overflow: hidden;
+      .tjnavbox{
+        width:750/@rem;
+        height:100%;
+        position: relative;
+        .tjnav{
+          width:540/@rem;
+          float: left;
+          margin: 0 auto;
+          height:48/@rem;
+          margin-bottom: 10/@rem;
+          margin-left: 30/@rem;
+          overflow: hidden;
+          .citylist1{
+            display: inline-block;
+            width:146/@rem;
+            height:44/@rem;
+            border: 1px solid #469A94;
+            color:#469A94;
+            font-size: 24/@rem;
+            line-height: 44/@rem;
+            text-align: center;
+            margin: 0 10/@rem;
+            margin-bottom: 10/@rem;
+          }
+          .citylistcur{
+            color: #000;
+            background: #65C0C2;         
+          }
+        }
+        
+        .morenav{
+          width:150/@rem;
+          position: relative;
+          float: left;
+          margin-right: 30/@rem;
+          height:44/@rem;
+          border: 1px solid #469A94;
+          color:#469A94;
+          font-size: 24/@rem;
+          line-height: 44/@rem;
+          text-align: center;       
+        }
+        
+      }
+      ul.tejiahouse{
+        width:706/@rem;
+        height:100%;
+        margin: 0 auto;
+
+        li{
+          width:706/@rem;
+          height:100%;
+          overflow: hidden;
+          margin-bottom: 16/@rem;
+          display: none;  
+          .tjbanner{
+
+            display: block;
+            width:750/@rem;
+            height: 320/@rem;
+            margin-bottom: 15/@rem;
+            margin: 0 auto;
+            margin-top:10/@rem;
+            img{
+              width:750/@rem;
+              height:320/@rem;
+            }
+          }                     
+          .house_info{
+            position: relative;
+            display: block;
+            width:706/@rem;
+            height:388/@rem;
+            height:100%;
+            overflow: hidden;         
+            background:#fff;
+            img{
+              width:342/@rem; height:388/@rem;
+              display: block;
+              float: left;
+            }
+            .info{
+              position: relative;
+              width:324/@rem;
+              float: right;
+              padding:8/@rem 18/@rem;
+              .location{
+                position: absolute;
+                display:block;
+                right:0;top:5/@rem;
+                height:56/@rem;
+                background:#ffe767;
+                padding-left:6/@rem;
+                padding-right: 14/@rem;
+                font-size: 30/@rem;
+                color:#878780;
+                line-height: 56/@rem;
+                text-align: center;
+              }
+              .location:before, .location:after{
+                content: "";
+                width:0/@rem;height:0/@rem;
+                position: absolute;
+                top:0;left:-28/@rem;
+                border-top: 28/@rem solid transparent;
+                border-right: 28/@rem solid #ffe767;
+                border-bottom: 28/@rem  solid transparent;
+              }
+              h3{
+                font-size:30/@rem;
+                color:#999995; 
+                height:50/@rem;
+                line-height: 50/@rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                font-weight: bold;
+              }
+              h1{
+                height:46/@rem;
+                line-height: 46/@rem;
+                font-size:36/@rem;
+                color:#ff2d0b;
+                font-weight: bold;
+              }
+              h4{
+                font-size: 26/@rem;
+                color:#999995;
+              }
+              .lb_info{
+                position:absolute;
+                background: #eff1f2;
+                width:286/@rem;
+                height:228/@rem;
+                padding:6/@rem 18/@rem;
+                margin: 0 auto;
+                right:25/@rem;
+                top:145/@rem;
+                p{
+                  height:32/@rem;
+                  font-size: 24/@rem;
+                  line-height: 32/@rem;
+                  color:#999995;
+                  overflow: hidden;
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                }
+                .recom{
+                  height:90/@rem;
+                  line-height: 30/@rem;
+                  font-size: 24/@rem;
+                  color:#999995;
+                  overflow: hidden;
+                  display: -webkit-box;
+                  -webkit-line-clamp:3;
+                  -webkit-box-orient:vertical;
+                  text-overflow: ellipsis;
+                }
+              }
+            }
+            .opbox{
+              position: absolute;
+              width:100%;height:100%;
+              left:0;top:0;
+              background: rgba(0,0,0,0.4);
+              display: none;
+              .yis{
+                height:80/@rem;
+                width:240/@rem;
+                border:3/@rem solid #fff;
+                font-size: 48/@rem;
+                line-height:80/@rem;
+                color:#fff;
+                text-align: center;
+                position: absolute;
+                top:50%;margin-top: -43/@rem;
+                left:50%;margin-left: -123/@rem;
+                transform: rotate(-15deg);
+              }
+              p{
+                position: absolute;
+                bottom: 20/@rem;
+                width:100%;
+                height:30/@rem;
+                line-height: 30/@rem;
+                text-align: center;
+                font-size: 24/@rem; 
+                color:#fff; 
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;            
+              }
+            }
+          }
+          .dj_btn{
+            position: relative;
+            width:680/@rem; height:70/@rem;
+            margin: 0 auto;
+            margin-top: 8/@rem;
+            .order_btn{
+              height:70/@rem;
+              width:340/@rem;
+              display:block;
+              float: left;
+              background: -webkit-linear-gradient(left,#ff4401, #ff8606);
+              background: linear-gradient(to right,#ff4401, #ff8606);
+              text-align: center;
+              line-height: 70/@rem;
+              font-size: 28/@rem;
+              color:#fff;
+              font-weight: bold;
+            }
+            .buy_btn{
+              height:70/@rem;
+              width:340/@rem;
+              display:block;
+              float: left;
+              background: #ffd60f;
+              font-size: 28/@rem;
+              color:#686868;
+              text-align: center;
+              line-height: 70/@rem;
+            }
+            .opbox2{
+              position: absolute;
+              width:100%;height:100%;
+              left:0;top:0;
+              background: rgba(0,0,0,0.4);
+              display: none;
+            }
+          }
+        }
+      }
+      .tejiafl{
+        width:750/@rem;
+        height:130/@rem;
+        overflow: hidden;
+        .tjfloor{
+          width:750/@rem;
+          height:130/@rem;
+          overflow: hidden;
+          height:140/@rem;
+          color:#6F3700;
+          font-size: 50/@rem;
+          padding:0/@rem 20/@rem;
+          line-height:140/@rem; 
+          text-align: center;
+        }
+        .tjfloor::before{
+          display: inline-block;
+          width: 122/@rem;
+          height:34/@rem;
+          content: "";
+          vertical-align: middle;
+          margin: 0;
+          background: url(https://gw.alicdn.com/tfs/TB1_GeRRpXXXXaYaXXXXXXXXXXX-122-34.png)no-repeat;
+          background-size: 122/@rem 34/@rem;
+        }
+        .tjfloor::after{
+          display: inline-block;
+          padding-right: 20/@rem;
+          width: 122/@rem;
+          height:34/@rem;
+          content: "";
+          vertical-align: middle;
+          margin: 0;
+          background: url(https://gw.alicdn.com/tfs/TB1FIOZRpXXXXc0XVXXXXXXXXXX-122-34.png)no-repeat;
+          background-size: 122/@rem 34/@rem;
+        } 
+      }
+     
+    }
+  }
+}

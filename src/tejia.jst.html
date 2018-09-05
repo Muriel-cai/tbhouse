@@ -1,0 +1,39 @@
+<% $.each(items1,function(index,item){ %>
+	<li data-num="<%=item.fwnum%>" data-city="<%=item.citycode%>" class="shoplist" data-id="<%=item.location%>" showtj= "1">
+		
+		<a href="<%=item.item_url%>" class="house_info" target="_blank">
+		 	<img data-src="<%=item.item_pic%>_240x240q95.jpg" class="lazyload" />
+		 	<div class="info">
+		 		<span class="location"><%=item.location%></span>
+				<h3><%=item.region%></h3>
+				<h1>价格：<%=item.item_current_price%>万</h1>
+				<%if(item.desige1){%>
+				<h4>备案价：<s><%=item.item_price%>万</s></h4>
+				<%}%>
+				
+				<div class="lb_info">
+					<p><%=item.region%></p>
+					<p>户型：<%=item.house_type%></p>
+					<p>面积：<%=item.arer%>m<sup>2</sup></p>
+					<p>房号：<%=item.house_num%></p>
+					<%if(item.desige2){%>
+					<div class="recom">					
+						推荐理由：<%=item.recom%>
+					</div>
+					<%}%>
+				</div>
+			</div>	
+			<div class="opbox">
+				<div class="yis">已售</div>
+				<p>来晚了一步呢，去看看其他房吧！</p>
+		  </div>
+		</a>
+		
+		<div class="dj_btn">
+		<div class="opbox2"></div>
+			<a href="https://h5.m.taobao.com/fang/appoint.html?buildingId=<%=item.tjbuildingId%>" class="order_btn" target="_blank" >预约看房</a>
+			<a href="<%=item.item_url%>" class="buy_btn" target="_blank" >立即抢购</a>
+		</div>
+		
+	</li>	
+ <%});%>

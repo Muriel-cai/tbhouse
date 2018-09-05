@@ -1,0 +1,212 @@
+{
+  "type": "object",
+  "properties": {
+    "moduleinfo": {
+      "type": "object",
+      "title": "name",
+      "properties": {
+        "bg": {
+          "type": "string",
+          "title": "红包区块背景色"
+        },
+        "tjbgcolor":{
+          "type": "string",
+          "title": "特价房整体背景色"
+        },
+        "tejiabg":{
+          "type": "string",
+          "title": "特价区楼层背景图"
+        },
+        "tjtitle":{
+          "type": "string",
+          "title": "特价房楼层标题"
+        },
+        "fontColor":{
+          "type": "string",
+          "title": "特价房楼层标题字体颜色"
+        },
+        "disign":{
+          "type": "boolean",
+          "title": "判断特价房内广告位是否出现"
+        },
+        "tjbanurl":{
+          "type": "string",
+          "title": "特价房广告链接"
+        },
+        "tjbanpic":{
+          "type": "string",
+          "title": "特价房广告图片"
+        },
+        "hongbbg":{
+          "type": "string",
+          "title": "红包楼层背景图"
+        },
+        "hbfontColor":{
+          "type": "string",
+          "title": "红包楼层标题字体颜色"
+        },
+        "hbtitle":{
+          "type": "string",
+          "title": "特价房楼层标题"
+        }
+      }
+    },
+    "optioninfo": {
+      "type": "object",
+      "title": "选项",
+      "properties": {
+        "dynamic": {
+          "type": "string",
+          "title": "false代表禁止动态输出",
+          "default": "true"
+        },
+        "static": {
+          "type": "string",
+          "title": "false代表禁止静态输出",
+          "default": "true"
+        }
+      }
+    },
+    "items": {
+      "type": "array",
+      "title": "特价房城市名称",
+      "items": {
+        "type": "object",
+        "title": "这是数组的某个成员",
+        "properties": {
+          "item_cityid": {
+            "type": "string",
+            "title": "城市ID"
+          },
+          "item_cityname": {
+            "type": "string",
+            "title": "城市名称"
+          },
+          "list": {
+            "type": "array",
+            "title": "其他城市",
+            "items": {
+              "type": "object",
+              "title": "这是数组的某个成员",
+              "properties": {
+                "list_cityid": {
+                  "type": "string",
+                  "title": "城市ID"
+                },
+                "list_cityname": {
+                  "type": "string",
+                  "title": "城市名称"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "items2": {
+      "type": "array",
+      "title": "红包城市名称",
+      "items": {
+        "type": "object",
+        "title": "这是数组的某个成员",
+        "properties": {
+          "item_cityid": {
+            "type": "string",
+            "title": "城市ID"
+          },
+          "item_cityname": {
+            "type": "string",
+            "title": "城市名称"
+          },
+          "list": {
+            "type": "array",
+            "title": "其他城市",
+            "items": {
+              "type": "object",
+              "title": "这是数组的某个成员",
+              "properties": {
+                "list_cityid": {
+                  "type": "string",
+                  "title": "城市ID"
+                },
+                "list_cityname": {
+                  "type": "string",
+                  "title": "城市名称"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "items1": {
+      "type": "array",
+      "title": "这是特价房区块成员",
+      "items": {
+        "type": "object",
+        "title": "这是数组的某个成员",
+        "properties": {
+          "region": {
+            "type": "string",
+            "title": "这是小区名称"
+          },
+          "fwnum":{
+            "type": "number",
+            "title": "这是房屋剩余数量"
+          },
+          "citycode":{
+            "type": "string",
+            "title": "这是城市编号"
+          },
+          "house_type": {
+            "type": "string",
+            "title": "这是房型"
+          },
+          "arer": {
+            "type": "string",
+            "title": "这是房屋面积"
+          },
+          "house_num": {
+            "type": "string",
+            "title": "这是房屋房号"
+          },
+          "recom": {
+            "type": "string",
+            "title": "这是房屋推荐理由"
+          },
+          "location": {
+            "type": "string",
+            "title": "这是房屋所在城市"
+          },
+          "orderurl": {
+            "type": "string",
+            "title": "这是看房链接"
+          },
+          "tjbuildingId":{
+            "type": "string",
+            "title": "这是特价房每个楼盘活动ID"
+          },
+           "desige1":{
+            "type": "boolean",
+            "title": "这是判断备案价区块是否显示"
+          },
+          "desige2":{
+            "type": "boolean",
+            "title": "这是判断推荐理由区块是否显示"
+          }
+        },
+        "allOf": [
+          {
+            "$ref": "TMS/item_promo",
+            "required": [
+              "item_current_price",
+              "item_price",
+              "item_pic",
+              "item_url"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

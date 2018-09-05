@@ -1,0 +1,27 @@
+<% $.each(items, function(index,item) { %>
+<li class="list_li J_<%=item.buildingId%>" data-cityName="<%=item.areaName%>" data-build="<%=item.buildingId%>" >
+    <div class="list_totalprice" style="display:none;"></div>
+    <a  href="https://h5.m.taobao.com/mfang/detail/index.html?buildingId=<%=item.buildingId%>
+    " class="list_click" target="_blank">
+        <div class="building_img">
+            <% if(item.buildingPics != null){%>
+            <img data-src="<%=item.buildingPics[0].picUrl%>_300x300q75.jpg" class="building_pic lazyload" />
+            <%}%>
+        </div>
+    </a>
+    <a class="building_info" href="https://h5.m.taobao.com/mfang/detail/index.html?buildingId=<%=item.buildingId%>" target="_blank">
+        <div class="building_posi"><%=item.cityName%></div>
+        <p class="building_name"><%=item.buildingName%></p>
+        <% if(item.lastRefPrice > 0){%>
+        <p class="building_price"><b class="price_text"><%=item.lastRefPrice%></b>/m<i>2</i></p>
+        <% }else{%>
+        <p class="building_price">价格待定</p>
+        <%}%>
+        <div class="building_address">地址:<%=item.propertyAddress%></div>           
+    </a>
+        <div class="kan_ord">
+            <a href="http://h5.m.taobao.com/fang/appoint.html?buildingId=<%=item.buildingId%> " class="kan_orderr" target="_blank">立即预约看房</a>           
+            <div class="building_hb"></div> 
+        </div>
+</li>
+<% });%>

@@ -1,0 +1,219 @@
+{
+  "moduleinfo": {
+    "bg": "#ffe8ed",
+    "tjbgcolor": "#d4fdff",
+    "tejiabg": "https://gw.alicdn.com/tfs/TB16oYoRpXXXXcQXXXXXXXXXXXX-750-130.png",
+    "tjtitle": "特价房",
+    "fontColor": "#499599",
+    "disign": true,
+    "tjbanurl": "##",
+    "tjbanpic": "https://gw.alicdn.com/tfs/TB14yz3RpXXXXcFXVXXXXXXXXXX-721-320.png",
+    "hbtitle": "红包",
+    "hbfontColor": "#ba3535",
+    "hongbbg": "https://gw.alicdn.com/tfs/TB1h0B4RpXXXXafXpXXXXXXXXXX-750-140.png"
+  },
+  "optioninfo": {
+    "dynamic": "true",
+    "static": "true"
+  },
+  "items": [
+    {
+      "item_cityid": "999999",
+      "item_cityname": "其他",
+      "list": []
+    },
+    {
+      "item_cityid": "330100",
+      "item_cityname": "杭州",
+      "list": []
+    },
+    {
+      "item_cityid": "110100",
+      "item_cityname": "北京",
+      "list": [
+        {
+          "list_cityid": "211400",
+          "list_cityname": "葫芦岛"
+        },
+        {
+          "list_cityid": "130300",
+          "list_cityname": "秦皇岛"
+        }
+      ]
+    },
+    {
+      "item_cityid": "370100",
+      "item_cityname": "济南",
+      "list": []
+    },
+    {
+      "item_cityid": "340100",
+      "item_cityname": "广州",
+      "list": []
+    }
+  ],
+  "items2": [
+    {
+      "item_cityid": "999999",
+      "item_cityname": "其他",
+      "list": []
+    },
+    {
+      "item_cityid": "330100",
+      "item_cityname": "杭州",
+      "list": []
+    },
+    {
+      "item_cityid": "110100",
+      "item_cityname": "北京",
+      "list": [
+        {
+          "list_cityid": "211400",
+          "list_cityname": "葫芦岛"
+        },
+        {
+          "list_cityid": "130300",
+          "list_cityname": "秦皇岛"
+        }
+      ]
+    }
+  ],
+  "items1": [
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "济南",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 10,
+      "citycode": "370100",
+      "desige1": true,
+      "desige2": true,
+      "tjbuildingId": "S02178原盒进口Truffles德菲丝/德菲斯松露巧克力可可情迷200g S02165进口Truffles德菲丝／德菲斯松露巧克"
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "北京",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 0,
+      "citycode": "110100",
+      "tjbuildingId": "G爱贝斯颈肩宝正品控温热灸理疗保健/腰部颈椎按摩器肩颈宝 请修改标题，.9L长方形烤盘",
+      "desige1": true,
+      "desige2": false
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "杭州",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 0,
+      "citycode": "330100",
+      "tjbuildingId": "DJ德国双立人松木置物桶搁",
+      "desige1": false,
+      "desige2": true
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "北01",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 1,
+      "citycode": "110101",
+      "tjbuildingId": "博纳屋圆舞曲羽绒服收纳箱 S02145原盒进口Truffles德菲丝/德菲斯松露巧克力清新抹",
+      "desige1": false,
+      "desige2": false
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "济南",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 10,
+      "citycode": "370100",
+      "tjbuildingId": "S02178原盒进口Truffles德菲丝/德菲斯松露巧克力可可情迷200g S02165进口Truffles德菲丝／德菲斯松露巧克"
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "北京",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 0,
+      "citycode": "110100",
+      "tjbuildingId": "G爱贝斯颈肩宝正品控温热灸理疗保健/腰部颈椎按摩器肩颈宝 请修改标题，.9L长方形烤盘"
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "北京",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 0,
+      "citycode": "110100",
+      "tjbuildingId": "DJ德国双立人松木置物桶搁"
+    },
+    {
+      "region": "欧润哲脚踏式办公室家用厨房卫生间垃圾桶时尚创意镜光厕所纸筒 DJ",
+      "house_type": "天堂伞折叠",
+      "arer": "100.2",
+      "house_num": "DJ首度家居宜家田园木艺雕花餐厅灯吊灯客厅餐厅吊灯餐吊灯包邮 DJ首度家居创意雕花卧室客厅灯饰LED吸顶灯田园木艺过道灯吸顶灯 居家情侣舒适拖鞋健康拖鞋地板拖鞋J13280 T",
+      "recom": "我的美丽日记清酒酒粕面膜贴23ml/片白嫩无暇批发H04460 请修改标题，New",
+      "location": "北京",
+      "item_current_price": 6142.4,
+      "item_price": 7973.99,
+      "item_pic": "//gw.alicdn.com/bao/uploaded/i2/2165216548/TB2gJ.AbVXXXXc5XXXXXXXXXXXX_!!2165216548.jpg",
+      "item_url": "DJ首度家居现代",
+      "orderurl": "冬季新款家居",
+      "fwnum": 1,
+      "citycode": "110100",
+      "tjbuildingId": "博纳屋圆舞曲羽绒服收纳箱 S02145原盒进口Truffles德菲丝/德菲斯松露巧克力清新抹"
+    }
+  ]
+}
